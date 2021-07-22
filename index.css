@@ -1,0 +1,118 @@
+
+
+body{
+    border:25px solid black;
+    text-align:Center;
+}
+
+
+
+#header {
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#logo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18%;
+
+}
+
+#form{
+    text-align:center;
+    align-items: center;
+}
+
+#header-img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 18%;
+}
+
+#slogan {
+text-align:center;
+
+}
+.btn-primary{
+width: 20%;
+height: 30px;
+margin: 20px 0;
+border: 0;
+background-color: #f1c40f;
+text-transform: capitalize;
+
+}
+
+#details {
+text-align:center;
+display: block;
+flex-direction: column;
+justify-content: center;
+height:auto;
+width:auto;
+padding:5px;
+
+}
+
+#video{
+height: 315px;
+border-top-width: 0px;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+max-width: 560px;
+width: 100%;
+text-align:center;
+
+}
+
+#footer {
+text-align:right;
+background:rgb(163, 157, 157);
+font-size:20px;
+margin-top: 5px;
+display: flex;
+justify-content: flex-end;
+font-size: 0.9em;
+color: #444;
+}
+
+
+.pricing{
+display: block;
+flex-direction: column;
+align-items: center;
+text-align: center;
+width: calc(100% / 3);
+margin: 10px;
+border: 1px solid #000;
+border-radius: 3px;
+font-size:24px;
+justify-content: center;
+}
+.pricing>.level{
+background-color: #ddd;
+color: black;
+padding: 15px 0;
+width: 100%;
+text-transform: uppercase;
+font-weight: 700;
+}
+
+.btn{
+border: 0;
+margin: 15px 0;
+background-color: #f1c40f;
+font-weight: 400;
+display: inline-block;
+text-align: center;
+align-items: flex-start;
+font-size:16px;
+padding: 0 20px;
+height: 40px;
+}
+.pricing>ol>li{
+list-style:circle;
+}
